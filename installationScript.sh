@@ -18,7 +18,7 @@ then
     echo 'success, You are using Ubuntu System' 
     apt update
     #All packages that you want to install will go here
-elif [ ${CURRENT_OS} == Centos ] 
+elif [ ${CURRENT_OS} == CentOS ] 
 then 
     echo 'Success, You are using CentOS system' 
     yum update

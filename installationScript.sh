@@ -28,4 +28,6 @@ else
     echo 'hmmmm, You have to use either Ubuntu or CentOS for this script' 
 fi
 
+#Check for success message, if 0 the success
+echo $?
 echo 'script worked'
